@@ -5,7 +5,7 @@ var w;
 
 let recorder = [];
 
-let lifeSpan = 1300;
+let lifeSpan = 1100;
 
 
 
@@ -15,7 +15,7 @@ function setup() {
   w = new Walker();
   background(0)
   rect(0, height/3, width, height/3);
-  frameRate(20);
+  frameRate(60);
 
 
 }
